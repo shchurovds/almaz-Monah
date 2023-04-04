@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Игра для охраны</title>
+    <style>
+        #board {
+        background: <url(`background.jpg`);
+        background-size: cover;
+        border: 1px solind Blue;
+        height 350px;
+        widht: 650px;Executing pre-compile tasks...
+Executing post-compile tasks...
+
+        }
+        .character {
+        background: <url(`guest.jpg`);
+        background-size: cover;
+         widht: 120px;
+        height 120px
+        padding: 10px
+        margin:10px;
+        fliat: left;
+        display: none;
+        }
+        .thief {
+         background: <url(`thief.jpg`);
+        background-size: cover;
+        }
+        .hidden {
+           display: none;
+        }
+        .visible {
+         display: block;
+        }
+        </style>
+</head>
+<body>
+<input type="button" value="Играть" onclick="startGame()";/>
+<div id="board">
+    <div class="charakter">1</div>
+    <div class="charakter">2</div>
+    <div class="charakter">3</div>
+    <div class="charakter">4</div>
+    <div class="charakter">5</div>
+    <div class="charakter">6</div>
+</div>
+<script>
+    function startGame() {
+     gameLoop();
+     }
+     var loops = 0;
+     var peopleVisible;
+     var gameStore = 0;
+     function gameLoop() {
+        peopleVisible = !peopleVisible;
+        createCharacters();
+        loops++;
+        if(loops < 12) {
+          setTimeout(gameLoop,peopleVisible ? 1000 : 3000);
+          }
+          else {
+              alert("Твой счет " + gameScore);
+                }
+            }
+
+
+
+
+
+

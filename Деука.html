@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" name="autor" content="Матвеев Виталий" lang="ru"/>
+  <title>Дом Волковых</title>
+  <style>
+		.kartinka {
+			width: 100%;
+			height: 200px;
+			padding: 0px;
+			background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIgL1U5gx6BdUCz1SoMSEzNpg7vY-VjEVKLpLGIqJ8PRFVGP27Yg');
+			background-size: 30%;
+		}
+		.nizhkolon {
+			width: 100%;
+			height: 250px;
+			background-color: #fff;
+			text-align: center;
+			border: solid grey;
+			background-color: lightgrey;
+			font-size: 36px;
+		}
+	</style>
+</head>
+<body>
+<div style ="width: 100%; padding: 0px; background-color: lightgray; text-align:center;font-size: 36px;" >
+  <a href="mainPage.html">Главная /</a>
+  <a href="DIMGU.html">Алмаз /</a>
+  <a href="DIMF.html">Открытие /</a>
+  <a href="dima.html"> Выставка /</a>
+</div>
+<div class="kartinka">
+</div>
+<div style="width: 30%;;float: right;  padding: 5%;">
+  <br/><br/><br/><br/><br/><br/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLcFGkJVlVVpNLOg0Oin15mucowuf1ys2zvcr0DjtTaWRhPppd" alt="дом Волковых" style="height:55%;" />
+</div>
+<div style="width: 44%; padding: 8%; font-size: 36px;">
+  <h1>Дом Волковых</h1>
+  Это старейший ювелирный дом Москвы.<br/>
+  Приходите к нам.<br/>
+  Мы находимся рядом с собором Василия<br/>
+  Блаженного.
+  <div style="margin: 20px;">
+    Адрес:<br/>
+    Дом Волковых<br/>
+    собор Василия Блаженного<br/>
+    Москва
+  </div>
+</div>
+<div class="nizhkolon">
+  <p>Для связи с профессором Бейрстоуном : <a href="">profbairstone@intrepidexporer.com</a></p>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>To-Do List App</title>
+  <script>
+  function addItem() {
+   var newItem = document.createElement("div");
+   newItem.innerHTML = document.getElementById("box").value;
+   newItem.onclick = removeItem;
+   document.getElementById("list").appendChild(newItem);
+   saveList();
+  }
+  function removeItem() {
+   document.getElementById("list").removeChild(this);
+   saveList();
+  }
+  function saveList() {
+   localStorage.storedList = document.getElementById("list").innerHTML;
+  }
+  function loadList() {
+   document.getElementById("list").innerHTML = localStorage.storedList;
+   for(var i = 0; i < list.children.length; i++) {
+    list.children[i].onclick = removeItem;
+   }
+  }
+ </script>
+  <style>
+  .header {
+    height:75px;
+    width: 350px;
+    background-color:lightblue;
+    float: center;
+    padding:10px;
+    margin:20px;
+    text-align:centre;
+    font-size:24px;
+  }
+  .app {
+    height:600px;
+    width: 350px;
+    background-color:lightgreen;
+    float: center;
+    padding:10px;
+    margin:20px;
+  }
+  input[type="button"] {
+   background-color: pink;
+  }
+ </style>
+</head>
+<body>
+<div class="header">
+  <img src="" style="float: left;">
+  <p>The House of Volkov</p>
+</div>
+<div class="app">
+  <p style="font-size:18px; font-style:bold;">Special Exhibition To-Do List</p>
+  <input type="text" id="box" value="Type here to add task"/>
+  <br/>
+  <input type="button" value="Add item" onclick="addItem();"/>
+  <br/>
+  <div id="list"></div>
+</div>
+<script>
+  if(localStorage.storedList) {
+   loadList();
+  }
+ </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
