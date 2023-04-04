@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Алмаз Монах редкая драгоценость!</title>
+    <link rel="stylesheet" type="text/css" href="http://d90455is.beget.tech/css/saitalmaz.css">
+</head>
+<body>
+<div class="zagolovok">
+    <div class="divs pad">
+        <img src="diamond.jpg" alt="diamond" style="width: 141px;" />
+        <p style=" center;"></p>
+    <h1>Алмаз Монах</h1>
+    <h3>Сенсационный показ</h3>
+</div>
+<div class="menu">
+    <a href="HRT.html">Страница №2 / </a>
+    <a href="mainPage.html">Главная /</a>
+    <a href="DIMGU.html">Алмаз /</a>
+    <a href="DIMF.html"> Открытие /</a>
+    <a href="dima.html"> Выставка / </a>
+    <a href="Деука.html">Дом Волковых </a>
+</div>
+<div class="menu">
+    <a href="Buhf.html">Игра: крестики нолеки /</a>
+    <a href="HREI.html">Игра: Бесконечный бегун /</a>
+    <a href="HJUPO.html">Игра: тенис /</a>
+    <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" aria-controls="matches" placeholder="Введите поисковый запрос или URL" aria-expanded="false" aria-live="polite">
+    <cr-realbox-icon id="icon" in-searchbox="" background-image="" mask-image="url(//resources/images/icon_search.svg)"></cr-realbox-icon>
+    <button id="voiceSearchButton" class="realbox-icon-button" title="Голосовой поиск"></button>
+    <cr-realbox-icon id="icon" in-searchbox="" background-image="" mask-image="url(//resources/images/icon_search.svg)"></cr-realbox-icon>
+<blockquote style=" font-size:37px; padding-top:12px;">
+    <p><b>Алмаз Монах - один из самых редких и ценных алмазов в Европе
+        с крайне интересной историей.
+        Им владела русская знать, его похищала банда преступников,
+        а затем его обнаружили<br> в далеких сибирских горах, совершив одно из самых
+        сенсационных открытий нашего века.<br> Узнай историю алмаза на нашем сайте
+        и приходи посмотреть на него в дом Волковых в Москве.</b></p>
+    </blockquote>
+<script>
+   function sayHello(name) {
+    alert("Добро " + name);
+     }
+     sayHello("Пожаловать!");
+     </script>
+    <div class="divs pad" style="text-align: center;">
+    </div>
+</body>
+
+</blockquote>
+<div class="text">
+    <input id="knDom" type="button" value="Посетить Дом Волковых" onclick="zapis();"/>
+</div>
+<script>
+		function zapis() {
+			alert("Вы записаны на посещение дома Волковых");
+		}
+	</script>
+<div class="nizhkolon">
+    <p>Для связи с профессором Бейрстоуном : <a href="mailto: vvital_2000@mail.ru">profbairstone@intrepidexporer.com</a></p>
+    ПОКА!
+</div>
+<body>
+
+<br/>
+</body>
+</body>
+
