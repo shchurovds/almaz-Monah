@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Microsoft..iml" filepath="$PROJECT_DIR$/Microsoft..iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/almazMonah.iml" filepath="$PROJECT_DIR$/.idea/almazMonah.iml" />
     </modules>
   </component>
