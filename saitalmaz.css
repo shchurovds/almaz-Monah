@@ -1,0 +1,87 @@
+
+	.zagolovok {
+		background-color: lightblue;
+		width: 100%;
+		height: 300px;
+		border: solid grey;
+		text-align:center;
+		color: green;
+	}
+	.almaz {
+		background-color: lightblue;
+		text-align:center;
+		height:40%;
+		padding:1%;
+	}
+	.menu {
+		width: 100%;
+		height: 50px;
+		background-color: lightgray;
+		text-align: center;
+		border: solid grey;
+		font-size: 36px;
+	}
+	#knDom {
+		button: center;
+		font-size: 36px;
+	}
+	input[type="button"] {
+		font-size: 24px;
+		background-color: #cfc;
+	}
+	.text {
+		text-align: center;
+		padding:10%;
+		padding-top:15%;
+	}
+	.nizhkolon {
+		width: 95,5%;
+		text-align: center;
+    	border: solid grey;
+		background-color: lightgrey;
+		font-size: 36px;
+	    padding:2%;
+
+
+	}
+/*----------saitdiamond.html------------*/
+
+		.kartinka {
+    		width: 100%;
+    		height: 200px;
+    		padding: 0px;
+    		background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIgL1U5gx6BdUCz1SoMSEzNpg7vY-VjEVKLpLGIqJ8PRFVGP27Yg');
+    		background-size: 30%;
+		}
+		.diamondText {
+			height:450px;
+			width: 92%;
+			padding: 4%;
+			background-color: lightblue;
+			font-size: 36px;
+		}
+/*---------saitdiscovery.html ------------*/
+
+		.discoveryText {
+		    padding-top: 10%;
+		    padding-left: 20px;
+		    height: 630px;
+		    width: 80%;
+		    font-size: 36px;
+		}
+		.izobr {
+			width: 20%;
+			float: right;
+			text-align: center;
+		}
+
+		 .kartinka {
+			width: 100%;
+			height: 250px;
+			padding: 0px;
+			background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUl1GWADc7svOibfb_kKgSBrLQqSUTVEEBSXGsCxXtRwVs5LUA');
+			background-size: 35%;
+		}
+
+
+
